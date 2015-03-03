@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77356D861A253325002822CF /* URITemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 77356D851A253325002822CF /* URITemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DEE88A01AB020AC0054F70F /* URITemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 77356D851A253325002822CF /* URITemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77356D8C1A253325002822CF /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77356D801A253325002822CF /* URITemplate.framework */; };
 		77356D931A253325002822CF /* URITemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77356D921A253325002822CF /* URITemplateTests.swift */; };
 		77356D9D1A2534BE002822CF /* URITemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77356D9C1A2534BE002822CF /* URITemplate.swift */; };
@@ -160,7 +160,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77356D861A253325002822CF /* URITemplate.h in Headers */,
+				2DEE88A01AB020AC0054F70F /* URITemplate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
