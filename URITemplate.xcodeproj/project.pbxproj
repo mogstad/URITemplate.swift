@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2771CF271B9F54A200F1A11F /* DynamicTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2771CF261B9F54A200F1A11F /* DynamicTestCase.m */; settings = {ASSET_TAGS = (); }; };
+		2771CF271B9F54A200F1A11F /* DynamicTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2771CF261B9F54A200F1A11F /* DynamicTestCase.m */; };
 		77356D861A253325002822CF /* URITemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 77356D851A253325002822CF /* URITemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77356D8C1A253325002822CF /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77356D801A253325002822CF /* URITemplate.framework */; };
 		77356D931A253325002822CF /* URITemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77356D921A253325002822CF /* URITemplateTests.swift */; };
@@ -399,6 +399,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocode.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -420,6 +421,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocode.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;
 		};
